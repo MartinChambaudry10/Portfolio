@@ -99,7 +99,8 @@ section {
 }
 
 .text-right-content {
-    margin-top: 5%
+    margin-top: 5%;
+    margin-right: 33px;
 }
 
 .liens{
@@ -299,15 +300,17 @@ video {
 .discover:hover {
     transition: 0.3s ease-in-out;
     transform: scale(1.25);
-    background-color: #000000;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
 }
 
 .suivant {
     display: flex;
     transition: 0.3s ease-in-out;
     color: rgb(0, 0, 0);
-    text-align: center;   
+    text-align: center; 
+    margin-right: 33px;  
 }
 
 .suivant:hover {
@@ -372,17 +375,26 @@ video {
     color: white;
 }
 
+.aaa{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-bottom: 10vh;
+}
+
+
 .accueil-projets-1 {
     display: flex;
     transition: 0.3s ease-in-out;
     color: rgb(255, 255, 255);
     background-color: #000000;
-    width: 200px;
-    height: 100px;
+    width: 500px;
+    height: 250px;
     align-items: center;
     margin-left: 100px;
     text-align: center;
     padding: 2%;
+
 }
 
 .accueil-projets-1:hover {
@@ -393,12 +405,7 @@ video {
     border: 1px solid #000000;
 }
 
-.aaa{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 100px;
-    margin-bottom: 25vh;
-}
+
 
 
 /* css pour les boutons */
