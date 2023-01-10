@@ -48,10 +48,6 @@ a {
     font-size: 20px;
 }
 
-.cv {
-    text-decoration: none;
-    color: white;
-}
 
 .logo {
     height: 70px;
@@ -106,6 +102,15 @@ section {
     margin-top: 5%
 }
 
+.liens{
+    color: white;
+    margin-right: 90px;
+    text-align: right;
+}
+
+.liens:hover{
+    color: #6cc232;
+}
 
 .titre-portfolio {
     font-family: 'Caveat', cursive;
@@ -125,24 +130,31 @@ section {
     margin-top: 1px;
 }
 
-.rea{
-    font-family: 'Cutive Mono', monospace;
-    font-size: 25px;
+.titre-projets{
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
     margin-left: 93px;
-    margin-top: 0.5px;
+    margin-top: 200px;
+    
 }
 
 .exp-projet {
     text-align: left;
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 10px;
+    margin-left: 93px;
 }
 
 
 .azerty {
     display: flex;
-    width: 750px;
+    width: 800px;
     justify-content: space-between;
+}
+
+.scroll{
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
 }
 
 /* css */
@@ -159,9 +171,6 @@ footer {
     align-items: center;
 }
 
-.icon-footer a {
-    margin: 10px
-}
 
 /* fin du css pour le footer */
 
@@ -240,46 +249,35 @@ nav ul li:hover a {
 }
 
 video {
-    width: 300px;
+    width: 330px;
     height: auto;
     margin-left: 200px;
-    border-radius: 2%;
-    border: 1px solid rgb(58, 58, 58);
-
 }
 
 .img-projet2 {
-    width: 300px;
+    width: 330px;
     height: auto;
     margin-left: 200px;
-    border: 1px solid rgb(58, 58, 58);
-    border-radius: 2%;
 }
 
 
 .projet3 {
-    width: 300px;
+    width: 330px;
     height: auto;
     margin-left: 200px;
-    border: 1px solid rgb(58, 58, 58);
-    border-radius: 2%;
-
 }
 
 .img-projet4 {
-    width: 300px;
+    width: 330px;
     height: auto;
     margin-left: 200px;
-    border: 1px solid rgb(58, 58, 58);
-    border-radius: 2%;
 }
 
 .img-projet5 {
-    width: 300px;
+    width: 330px;
     height: auto;
     margin-left: 200px;
     border: 1px solid rgb(58, 58, 58);
-    border-radius: 2%;
 }
 
 /* projet */
@@ -306,21 +304,16 @@ video {
 }
 
 .suivant {
-    border-radius: 5px;
     display: flex;
     transition: 0.3s ease-in-out;
     color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid black;
+    text-align: center;   
 }
 
 .suivant:hover {
     transition: 0.3s ease-in-out;
     transform: scale(1.25);
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+    color: #000000;  
 }
 
 
@@ -343,7 +336,7 @@ video {
 }
 
 .btn-suite {
-    border-radius: 5px;
+    border-radius: 2px;
     display: flex;
     transition: 0.3s ease-in-out;
     background-color: #000000;
@@ -361,22 +354,51 @@ video {
     border: 1px solid #000000;
 }
 
-.gotoprojets {
+.cv {
     border-radius: 2px;
     display: flex;
     transition: 0.3s ease-in-out;
     border: 1px solid #000000;
     color: rgb(0, 0, 0);
-    width: 17.5%;
+    width: 17%;
     padding: 10px;
     align-items: center;
 }
 
-.gotoprojets:hover {
+.cv:hover {
     transition: 0.3s ease-in-out;
     transform: scale(1.25);
     background-color: #000000;
     color: white;
 }
+
+.accueil-projets-1 {
+    display: flex;
+    transition: 0.3s ease-in-out;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    margin-left: 100px;
+    text-align: center;
+    padding: 2%;
+}
+
+.accueil-projets-1:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.25);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+}
+
+.aaa{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-bottom: 25vh;
+}
+
 
 /* css pour les boutons */
